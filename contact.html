@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+    <!-- Add font awesome icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="logo.html">
+                    <img class="nav-logo" src="./img/clearwater-lake-logo.png" alt="Small logo depicting mountains and trees inside a hexagon above text that reads Clearwater Campsite">
+                </a>
+            </li>
+            <li><a class="nav-option" href="index.html">Home</a></li>
+            <li><a class="nav option active" href="contact.html">Contact</a></li>
+            <li><a class="nav-option" href="about.html">About</a></li>
+        </ul>
+    </header>
+
+    <div class="form-container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="campsite">Campsite</label>
+          <select id="campsite" name="campsite">
+            <option value="campsite-1">Campsite 1</option>
+            <option value="campsite-2">Campsite 2</option>
+            <option value="campsite-3">Campsite 3</option>
+            <option value="campsite-4">Campsite 4</option>
+          </select>
+      
+          <label for="special-requests">Special Requests</label>
+          <textarea id="special-requests" name="special-requests" placeholder="Extra towels, fresh sheets, etc..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+    <footer>
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        Copywrite 2022 Clearwater Campsite all rights reserved
+    </footer>
+    
+</body>
+</html>
